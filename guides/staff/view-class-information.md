@@ -6,10 +6,10 @@ authors: jakerenzella
 
 # Student List
 
-The student list is an important part of Doubtfire, which shows all enrolled students in a unit, information such as
+The student list is an important part of Formatif, which shows all enrolled students in a unit, information such as
 student class allocation, and an overview of a student's progression through a unit.
 
-To view the student list, log in to Doubtfire and select the unit for which you wish to view the student list from the
+To view the student list, log in to Formatif and select the unit for which you wish to view the student list from the
 top-left dropdown:
 
 ![Student List](/guides/view-class-information/student-list.png)
@@ -57,7 +57,7 @@ The glags column provides one of three icon:
 
 - **Target Grade:** Letter/s indicating the target grade, for example _student_23_ is targeting a credit _C_ grade.
 - **Portfolio Generated:** if the Book icon is present, then the student has generated a portfolio in the unit.
-- **Eye icon:** If Doubtfire has detected possible similarities between student work, then an eye icon will be present.
+- **Eye icon:** If Formatif has detected possible similarities between student work, then an eye icon will be present.
 
 ## Tutorials
 
@@ -74,7 +74,7 @@ On the bottom-right hand side of the page, there are two buttons: _Export CSV_ a
 
 # Task List
 
-The task list simply lists each of the tasks in a unit. After logging into Doubtfire, and selecting a unit, from the
+The task list simply lists each of the tasks in a unit. After logging into Formatif, and selecting a unit, from the
 top-left menu, select _task list_:
 
 ![Task List Select](/guides/view-class-information/task-list.png)

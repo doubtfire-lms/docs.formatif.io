@@ -8,21 +8,21 @@ const IndexPage: FC = () => {
   return (
     <>
       <Head>
-        <title>Doubtfire</title>
+        <title>Formatif</title>
       </Head>
       <div className="container">
         <div className="hero is-fullheight">
           <div className="hero-body">
             <div className="container has-text-centered">
               <p>
-                <img src={`${process.env['prefix']}/images/logo/logo.svg`} alt="Doubtfire Logo" />
+                <img src={`${process.env['prefix']}/images/logo/logo.png`} alt="Formatif Logo" />
               </p>
               <br />
-              <h1 className="title is-1">Doubtfire</h1>
+              <h1 className="title is-1">Formatif</h1>
               <p className="subtitle">
                 An innovative, open-source learning management system designed to enhance student engagement and learning.
               </p>
-              <p> <img src={`${process.env['prefix']}/images/hero.png`} alt="Doubtfire Hero Image" /></p>
+              <p> <img src={`${process.env['prefix']}/images/hero.png`} alt="Formatif Hero Image" /></p>
               <br />
               <div className="buttons is-centered">
                 <Link href="/guides">

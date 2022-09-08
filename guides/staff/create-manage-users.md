@@ -1,15 +1,15 @@
 ---
 title: Create & manage users
-summary: See how you can create & manage users in Doubtfire.
+summary: See how you can create & manage users in Formatif.
 authors: jakerenzella
 ---
 
-User accounts in Doubtfire include both students and staff accounts, and there are two ways to create user accounts --
+User accounts in Formatif include both students and staff accounts, and there are two ways to create user accounts --
 manually and batch.
 
 # Editing an Existing User
 
-Log in to Doubtfire and select _Manage Users_ from the Administration dropdown in the top right menu:
+Log in to Formatif and select _Manage Users_ from the Administration dropdown in the top right menu:
 
 ![Manage Users](/guides/create-manage-users/manage-users.png)
 

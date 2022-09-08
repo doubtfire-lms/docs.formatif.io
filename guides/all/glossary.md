@@ -23,7 +23,7 @@ authors: jakerenzella
     <tr>
       <td class="has-text-right"><strong>Administrator</strong></td>
       <td>
-        Someone who has permissions within Doubtfire to create and manage the Doubtfire system. May or many not be a
+        Someone who has permissions within Formatif to create and manage the Formatif system. May or many not be a
         member of teaching staff.
       </td>
     </tr>
@@ -114,12 +114,12 @@ authors: jakerenzella
     <tr>
       <td class="has-text-right"><strong>Plagiarism</strong></td>
       <td>
-        In Doubtfire, plagiarism refers to a report containing information about a <em>possible</em> case of student plagiarism.
+        In Formatif, plagiarism refers to a report containing information about a <em>possible</em> case of student plagiarism.
       </td>
     </tr>
     <tr>
       <td class="has-text-right"><strong>Gravatar</strong></td>
-      <td>The system which provides profile-photo support in Doubtfire.</td>
+      <td>The system which provides profile-photo support in Formatif.</td>
     </tr>
     <tr>
       <td class="has-text-right"><strong>Student Groups</strong></td>

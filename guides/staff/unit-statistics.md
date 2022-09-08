@@ -4,7 +4,7 @@ summary: See how you can view and analyse unit statistics.
 authors: jakerenzella
 ---
 
-There are a number of different statistics available within the Doubtfire LMS, which can be viewed at any time during a
+There are a number of different statistics available within the Formatif LMS, which can be viewed at any time during a
 unit by the teaching staff. In this article, we will explore how to view and interpret the different types of
 statistics.
 

@@ -1,13 +1,13 @@
 ---
 title: Creating & managing units
-summary: See how you can create & manage units in Doubtfire
+summary: See how you can create & manage units in Formatif
 authors: jakerenzella
 ---
 
-To get started with creating and managing a unit in Doubtfire, ensure your account is of the correct permission level,
-and log in to Doubtfire.
+To get started with creating and managing a unit in Formatif, ensure your account is of the correct permission level,
+and log in to Formatif.
 
-1. After logging in to Doubtfire, select _Administration_ -> _Manage Units_ from the menu on the top right menu.
+1. After logging in to Formatif, select _Administration_ -> _Manage Units_ from the menu on the top right menu.
 
    ![Manage Units](/guides/create-manage-units/manage-units.png)
 
@@ -60,7 +60,7 @@ The staff for a unit include the unit chair, and tutors. These staff can easily 
 the staff member's name, and then selecting the _Add Staff_ button.
 
 **Note:** The search field will autocomplete the staff members name, if the staff member you are trying to assign to a
-unit is not appearing, ensure the name is spelled correctly, and that the user has previously added to the Doubtfire
+unit is not appearing, ensure the name is spelled correctly, and that the user has previously added to the Formatif
 system. See the enrolling users guide for more details.
 
 ![Staff](/guides/create-manage-units/staff.png)
@@ -109,4 +109,4 @@ weakly (2/5) aligns with the _W_ (Writing) learning outcome. You can present a r
 # Groups
 
 See the [Student Management guide](/guides/enrol-manage-students) for information on creating and managing student
-groups in Doubtfire.
+groups in Formatif.

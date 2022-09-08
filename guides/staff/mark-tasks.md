@@ -4,9 +4,9 @@ summary: See how to mark student submissions
 authors: jakerenzella
 ---
 
-Marking student submissions in Doubtfire is done throughout the "Task Inbox" page.
+Marking student submissions in Formatif is done throughout the "Task Inbox" page.
 
-1. Log in to Doubtfire and select the unit from the "Units You Teach" list, visit its task inbox:
+1. Log in to Formatif and select the unit from the "Units You Teach" list, visit its task inbox:
 
    ![Unit selection](/guides/mark-tasks/select-unit.png)
 

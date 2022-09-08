@@ -98,7 +98,7 @@ const GuidesPage: FC<Props> = ({ guides: allGuides }) => {
   return (
     <>
       <Head>
-        <title>Guides | Doubtfire</title>
+        <title>Guides | Formatif</title>
       </Head>
       <div className="container">
         <Nav />
@@ -109,7 +109,7 @@ const GuidesPage: FC<Props> = ({ guides: allGuides }) => {
               {/* Title & subtitle */}
               <div className="column">
                 <h1 className="title">Guides</h1>
-                <div className="p subtitle has-text-grey-light">Guides on how to use Doubtfire</div>
+                <div className="p subtitle has-text-grey-light">Guides on how to use Formatif</div>
               </div>
               {/* Search options */}
               <div className="column is-two-thirds">

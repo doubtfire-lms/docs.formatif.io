@@ -79,13 +79,13 @@ export default {
       singular: 'Student',
       plural: 'Students',
       summary:
-        'Aimed at the learners who will be using Doubtfire to help guide their learning, with the aid of the teaching staff',
+        'Aimed at the learners who will be using Formatif to help guide their learning, with the aid of the teaching staff',
     },
     staff: {
       singular: 'Staff',
       plural: 'Staff',
       summary:
-        'Aimed at the academics, teachers, and tutors who will be using Doubtfire to help keep students on track',
+        'Aimed at the academics, teachers, and tutors who will be using Formatif to help keep students on track',
     },
     'unit-chair': {
       singular: 'Unit Chair',

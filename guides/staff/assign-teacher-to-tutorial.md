@@ -4,8 +4,8 @@ summary: See how you can assign staff to a tutorial.
 authors: jakerenzella
 ---
 
-Each tutorial in Doubtfire should have an assigned teaching staff member, to ensure that the submissions for the
-tutorial are directed to the correct teaching staff. To assign a tutor to a tutorial, simply log in to Doubtfire, and
+Each tutorial in Formatif should have an assigned teaching staff member, to ensure that the submissions for the
+tutorial are directed to the correct teaching staff. To assign a tutor to a tutorial, simply log in to Formatif, and
 select manage units from the Administration dropdown:
 
 ![Manage units](/guides/assign-teacher-to-tutorial/manage-units.png)

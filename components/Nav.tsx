@@ -13,11 +13,11 @@ const Nav: FC = () => {
     <nav className="navbar is-spaced">
       {/* Left */}
       <div className="navbar-brand">
-        {/* Doubtfire logo */}
+        {/* Formatif logo */}
         <Link href="/">
           <a className="navbar-item">
-            <img src={`${process.env['prefix']}/images/logo/logo.svg`} alt="Doubtfire Logo" width="28" height="28" />
-            &nbsp; Doubtfire
+            <img src={`${process.env['prefix']}/images/logo/logo.png`} alt="Formatif Logo" width="28" height="28" />
+            &nbsp; Formatif
           </a>
         </Link>
         {/* Menu toggle */}

@@ -1,7 +1,7 @@
 ---
 title: Grading Portfolios
 summary:
-  See how to assess student portfolios within Doubtfire, this includes details on the assessment process & selection of
+  See how to assess student portfolios within Formatif, this includes details on the assessment process & selection of
   final numeric grades.
 authors: macite
 ---

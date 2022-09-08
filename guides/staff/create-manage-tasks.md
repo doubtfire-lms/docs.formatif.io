@@ -1,13 +1,13 @@
 ---
 title: Creating and Managing Tasks
-summary: See how you can create & manage students in tasks in Doubtfire.
+summary: See how you can create & manage students in tasks in Formatif.
 authors: jakerenzella
 ---
 
-Tasks are one of the most important aspects of running a unit in Doubtfire. In this article we will take a look at how
+Tasks are one of the most important aspects of running a unit in Formatif. In this article we will take a look at how
 we can create and manage tasks.
 
-1. Log in to Doubtfire
+1. Log in to Formatif
 
 1. Select Manage Units from the Administration dropdown:
 
@@ -23,7 +23,7 @@ we can create and manage tasks.
 
 # Creating a task
 
-In Doubtfire, there is no difference in how you create and edit a task. Let's take a look at how to create a new task.
+In Formatif, there is no difference in how you create and edit a task. Let's take a look at how to create a new task.
 
 1. Select the green _Add Task_ button in the Task List panel.
 
@@ -42,13 +42,13 @@ In Doubtfire, there is no difference in how you create and edit a task. Let's ta
 
      ![Task resources](/guides/create-manage-tasks/resources.png)
 
-   - **Plagiarism Detection**: If enabled, the percentage similarity where Doubtfire creates a warning.
+   - **Plagiarism Detection**: If enabled, the percentage similarity where Formatif creates a warning.
 
      ![Plagiarism Settings](/guides/create-manage-tasks/plagiarism.png)
 
 # Batch upload or export of tasks
 
-In Doubtfire, you can batch import or export task definitions from the same tasks page. To do this, stay on the _tasks_
+In Formatif, you can batch import or export task definitions from the same tasks page. To do this, stay on the _tasks_
 panel, and on the right hand side you will find:
 
 - Batch Upload Task Definitions

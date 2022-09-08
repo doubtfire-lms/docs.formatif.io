@@ -191,7 +191,7 @@ const GuidePage: FC<Props> = (props) => {
   return (
     <>
       <Head>
-        <title>{props.title} | Doubtfire</title>
+        <title>{props.title} | Formatif</title>
       </Head>
       <div className="container">
         <Nav />

@@ -1,6 +1,6 @@
 ---
 title: Enrol & Manage Students
-summary: See how you can enrol & manage students in Doubtfire.
+summary: See how you can enrol & manage students in Formatif.
 authors: jakerenzella
 ---
 
@@ -15,7 +15,7 @@ All of these actions take place in the student tab of the unit administration pa
 
 # Navigate to the Student Administration Page
 
-After logging into Doubtfire, select the "Administer Units" section
+After logging into Formatif, select the "Administer Units" section
 
 ![Administer units](/guides/enrol-manage-students/administer-units.png)
 
@@ -37,7 +37,7 @@ enrollment (even if there are no enrolled students), to view the format and fiel
 
 1. Select the blue **Batch Enroll** or red **Batch Withdraw** button in the batch upload panel
 1. Simply drag and drop the batch CSV, or select the dotted upload block to open a file navigator.
-1. After processing, Doubtfire will alert you to any incorrect fields/errors.
+1. After processing, Formatif will alert you to any incorrect fields/errors.
 
 # Manually Enroll
 
@@ -46,7 +46,7 @@ simply enter the student ID and tutorial code.
 
 ![Manually enrol](/guides/enrol-manage-students/manually-enrol.png)
 
-**Note:** The student account must already be created in Doubtfire, you can ensure this by asking the student to log in
+**Note:** The student account must already be created in Formatif, you can ensure this by asking the student to log in
 once.
 
 **Note:** If the Tutorial Code is left blank (if not yet known), the student will still be enrolled, however no tutorial
@@ -54,7 +54,7 @@ will be assigned.
 
 # Manually Withdraw
 
-To withdraw a student from the unit in Doubtfire, simply click the green tick box in the "Enrolled" column for the
+To withdraw a student from the unit in Formatif, simply click the green tick box in the "Enrolled" column for the
 appropriate student:
 
 ![View students](/guides/enrol-manage-students/view-students.png)

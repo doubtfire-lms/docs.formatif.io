@@ -1,13 +1,13 @@
 ---
 title: Create & manage student groups
-summary: See how you can create & manage students in groups in Doubtfire.
+summary: See how you can create & manage students in groups in Formatif.
 authors: jakerenzella
 ---
 
 To manage students in a group, first you need to ensure your unit has group sets setup. A group set is a definition of
 the types of groups you can have in a unit. To setup a group set:
 
-1. Log in to Doubtfire.
+1. Log in to Formatif.
 
 1. Select Manage Units from the Administration dropdown:
 
