@@ -7,9 +7,9 @@ import matter from 'gray-matter';
 import Scrollspy from 'react-scrollspy';
 import { useMediaQuery } from 'react-responsive';
 
-import Meta, { Audience, ParsedGuideFrontMatter, parseFrontMatter, RawGuideFrontMatter } from '../../guides/Meta';
-import Nav from '../../components/Nav';
-import Footer from '../../components/Footer';
+import Meta, { Audience, ParsedGuideFrontMatter, parseFrontMatter, RawGuideFrontMatter } from '../guides/Meta';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 // Unified, Remark, Rehype imports & plugins.
 import unified from 'unified';
