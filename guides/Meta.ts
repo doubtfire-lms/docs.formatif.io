@@ -67,6 +67,7 @@ export default {
     MattK18: 'Matthew Kramersh',
     Justfeedme: 'Jacob Taylor',
     jeevanFernandes: 'Jeevan Fernandes',
+    josephjeong: "Joseph Jeong"
   },
 
   audienceLabels: {

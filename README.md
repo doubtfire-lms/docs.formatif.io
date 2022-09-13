@@ -1,6 +1,7 @@
-# Doubtfire Documentation Project
+# Formatif Documentation Project
 
-![Screenshot of the Doubtfire.io homepage](images/home.png)
+<!-- Need to replace screenshot of homepage -->
+<!-- ![Screenshot of the formatif.io homepage](images/home.png) -->
 
 Doubtfire[]().io is a website that documents the [Doubtfire](https://github.com/doubtfire-lms) project—a task oriented
 learning management system designed to help support frequent formative feedback.

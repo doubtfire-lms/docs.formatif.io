@@ -23,7 +23,7 @@ authors: jakerenzella
     <tr>
       <td class="has-text-right"><strong>Administrator</strong></td>
       <td>
-        Someone who has permissions within Formatif to create and manage the Formatif system. May or many not be a
+        Someone who has permissions within Formatif to create and manage the Formatif system. May or may not be a
         member of teaching staff.
       </td>
     </tr>
@@ -40,7 +40,7 @@ authors: jakerenzella
     </tr>
     <tr>
       <td class="has-text-right"><strong>Unit</strong></td>
-      <td>The subject or unit of study, for example: Introduction to Philosophy.</td>
+      <td>The subject or unit of study; for example: "Introduction to Philosophy".</td>
     </tr>
     <tr>
       <td class="has-text-right"><strong>Task</strong></td>
@@ -78,7 +78,7 @@ authors: jakerenzella
             demonstrate the work.
           </li>
           <li>
-            <strong>Complete</strong>:The tutor is happy with the submission, and it is ready for inclusion in the
+            <strong>Complete</strong>: The tutor is happy with the submission, and it is ready for inclusion in the
             portfolio.
           </li>
         </ul>

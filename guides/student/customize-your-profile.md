@@ -1,7 +1,7 @@
 ---
 title: Customizing Your Profile
 summary: See how you can customize your profile in Formatif!
-authors: jakerenzella
+authors: josephjeong
 ---
 
 In Formatif, your profile contains the following customizable information:

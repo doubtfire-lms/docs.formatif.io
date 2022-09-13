@@ -58,7 +58,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   for (const audience of Meta.orderedAudiences) {
     const guides = (await fs.readdir(`guides/${audience}`)).map((n) => n.replace(/\.md$/, ''));
     for (const guide of guides) {
-      paths.push(`/guides/${guide}`);
+      paths.push(`/${guide}`);
     }
   }
 
@@ -200,26 +200,13 @@ const GuidePage: FC<Props> = (props) => {
           <div className="hero-body">
             <div className="columns is-centered">
               <div className="column is-four-fifths px-0">
-                <nav className="breadcrumb">
-                  <ul>
-                    <li>
-                      <Link href="/guides">
-                        <a>Guides</a>
-                      </Link>
-                    </li>
-                    {props.audience !== 'all' && (
-                      <li>
-                        <Link href={`/guides#${props.audience}`}>
-                          <a className="has-background-white">{Meta.audienceLabels[props.audience].singular}</a>
-                        </Link>
-                      </li>
-                    )}
-                  </ul>
-                </nav>
+                  {props.audience !== 'all' && (
+                    <Link href={`/#${props.audience}`}>
+                      <a className="has-background-white">{Meta.audienceLabels[props.audience].singular}</a>
+                    </Link>
+                  )}
                 <h1 className="title is-2 mb-4">
-                  <a href="" className="has-background-white" style={{ color: 'inherit' }}>
-                    {props.title}
-                  </a>
+                  {props.title}
                 </h1>
                 <p className="is-size-5 has-text-black">
                   <span className="has-background-white">

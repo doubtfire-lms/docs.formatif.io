@@ -1,30 +1,30 @@
 ---
-title: Overview of Doubtfire
-summary: This document provides an overview of Doubtfire
+title: Overview of Formatif
+summary: This document provides an overview of Formatif
 authors: Justfeedme
 ---
 
 # Introduction
 
-## What is Doubtfire
+## What is Formatif
 
-Doubtfire is a modern, lightweight learning management system.
+Formatif is a modern, lightweight learning management system.
 
 Central to this approach is use for frequent formative feedback to help each student develop a portfolio of work to
 demonstrate they have achieved unit learning outcomes. This approach aims to provide greater opportunities for students
 to be more goal-oriented and self-regulated.
 
-Doubtfire, has been used by both staff and students as a platform to support such frequent formative feedback in
+Formatif, has been used by both staff and students as a platform to support such frequent formative feedback in
 assisting students to construct their knowledge.
 
-Doubtfire aims to help support students set learning goals and work toward achieving these, thereby helping support the
-development of self-regulation. To better support these features, we have enhanced Doubtfire with open learner model
+Formatif aims to help support students set learning goals and work toward achieving these, thereby helping support the
+development of self-regulation. To better support these features, we have enhanced Formatif with open learner model
 visualisations to provide better support for indicating the links among these tasks and the unit’s learning outcomes as
 well as expected outcomes.
 
 ## What does it do
 
-Doubtfire allows staff and student to explore the links between tasks and learning outcomes, enabling staff to monitor
+Formatif allows staff and student to explore the links between tasks and learning outcomes, enabling staff to monitor
 student progress toward achievement of learning outcomes, and supporting students in better manage their learning
 progress.
 
@@ -68,9 +68,9 @@ by staff as demonstrating the required knowledge.
 A key principle of Agile software development methods is that they embrace change by allowing for adaptive, periodic
 adjustment of activities, resulting in robust and effective outcomes.
 
-A key driver of Agile development is the use of Burn down charts—a central requirement for the Doubtfire tool.
+A key driver of Agile development is the use of Burn down charts—a central requirement for the Formatif tool.
 
-Doubtfire allows teaching staff to outline the tasks students need to complete during the semester. Student are then
+Formatif allows teaching staff to outline the tasks students need to complete during the semester. Student are then
 able to monitor their progress against these tasks using burn down charts. The charts show the backlog of work remaining
 week by week, which decreases as work is completed.
 
@@ -84,23 +84,23 @@ size and complexity. A students projected completion should be recalculated as t
 
 ## Who developed it
 
-The main contributors of Doubtfire are Andrew Cain ([@macite](https://github.com/macite)), Alex Cummaudo
+The main contributors of Formatif are Andrew Cain ([@macite](https://github.com/macite)), Alex Cummaudo
 ([@alexcu](https://github.com/alexcu)) and Jake Renzella ([@jakerenzella](https://github.com/jakerenzella))
 
 ---
 
 # Framework - High Level Structure
 
-## Doubtfire Web
+## Formatif Web
 
-Doubtfire Web is the front end (client side) and is written in Javascript, using [AngularJS](http://angularjs.org) and
+Formatif Web is the front end (client side) and is written in Javascript, using [AngularJS](http://angularjs.org) and
 [Bootstrap](http://getbootstrap.com).
 
-## Doubtfire API
+## Formatif API
 
-Doubtfire API is the backend (server side) and uses the [Ruby on Rails framework](https://rubyonrails.org).
+Formatif API is the backend (server side) and uses the [Ruby on Rails framework](https://rubyonrails.org).
 
-![High Level Structure of Doubtfire](/guides/overview/high-level-structure.gif)
+![High Level Structure of Formatif](/guides/overview/high-level-structure.gif)
 
 Grape API is a Restful API. Access to the API via http verbs:
 
@@ -119,7 +119,7 @@ bundle exec rails s
 
 Once you have Rail server running, navigate to `localhost:3000/api/docs/`, it gives us access to the API endpoints.
 
-![Doubtfire API documentation](/guides/overview/api-documentation.png)
+![Formatif API documentation](/guides/overview/api-documentation.png)
 
 For example, clicking on "users" shows endpoints such as `GET /api/users`, `POST /api/users`, etc,
 
@@ -305,7 +305,7 @@ development.
 
 guides.rubyonrails.org -> Models -> Active Record Basics https://guides.rubyonrails.org/active_record_basics.html
 
-## Facade Design pattern (front end of Doubtfire)
+## Facade Design pattern (front end of Formatif)
 
 The facade pattern is a software-design pattern commonly used in object-oriented programming. Analogous to a facade in
 architecture, a facade is an object that serves as a front-facing interface masking more complex underlying or
@@ -334,7 +334,7 @@ simpler interface to the client.**
 
 # Code Exploration
 
-## Doubtfire-API
+## Formatif-API
 
 ### Database and Object model mapping
 
@@ -344,13 +344,13 @@ the values they contain.
 
 ![Schema.rb](/guides/overview/schema-ruby.jpg)
 
-Doubtfire uses the Object model, where all the objects are found in `app/models` folder. We can then map the "projects"
+Formatif uses the Object model, where all the objects are found in `app/models` folder. We can then map the "projects"
 table in schema.rb, to the project.rb object in the `app/models` folder. Whereas the "projects" table contains the
 definition of the attributes of the object, the project.rb object contains the functionality.
 
 ![Mapping of Projects Table (left) with Project Object (right)](/guides/overview/project-schema-to-object-mapping.jpg)
 
-Doubtfire utilizes the migrations feature of Active Record to incrementally modify the database, and then regenerate the
+Formatif utilizes the migrations feature of Active Record to incrementally modify the database, and then regenerate the
 schema definition.
 
 To look into this further, one should look at the various tables in **schema.rb** and their corresponding mappings with

@@ -17,7 +17,7 @@ const Nav: FC = () => {
         <Link href="/">
           <a className="navbar-item">
             <img src={`${process.env['prefix']}/images/logo/logo.png`} alt="Formatif Logo" width="28" height="28" />
-            &nbsp; Formatif
+            &nbsp; <p className="has-text-weight-bold">Formatif</p> 
           </a>
         </Link>
         {/* Menu toggle */}
@@ -35,9 +35,12 @@ const Nav: FC = () => {
       {/* Right: menu items */}
       <div className={`navbar-menu ${isMobileNavVisible ? 'is-active' : ''}`}>
         <div className="navbar-end">
-          <Link href="/guides">
+          {/* <Link href="/guides">
             <a className={`navbar-item ${router.pathname === '/guides' ? 'is-active' : ''}`}>Guides</a>
-          </Link>
+          </Link> */}
+          <a href='https://www.formatif.app' target="_blank" className="navbar-item">
+            App
+          </a>
           <a href="https://blog.doubtfire.io/" target="_blank" className="navbar-item">
             Blog
           </a>

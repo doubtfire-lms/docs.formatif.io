@@ -98,7 +98,7 @@ const GuidesPage: FC<Props> = ({ guides: allGuides }) => {
   return (
     <>
       <Head>
-        <title>Guides | Formatif</title>
+        <title>Formatif Docs</title>
       </Head>
       <div className="container">
         <Nav />
@@ -108,7 +108,7 @@ const GuidesPage: FC<Props> = ({ guides: allGuides }) => {
             <div className="container columns is-align-items-flex-end">
               {/* Title & subtitle */}
               <div className="column">
-                <h1 className="title">Guides</h1>
+                <h1 className="title">Formatif Docs</h1>
                 <div className="p subtitle has-text-grey-light">Guides on how to use Formatif</div>
               </div>
               {/* Search options */}
@@ -184,7 +184,7 @@ const GuidesPage: FC<Props> = ({ guides: allGuides }) => {
               <div className="columns is-multiline">
                 {guides[a].map((g) => (
                   <div key={`audience-${a}-guide-${g.id}`} className="column is-one-quarter">
-                    <Link href={`/guides/${g.id}`}>
+                    <Link href={`/${g.id}`}>
                       <a className="box p-3">
                         <h3 className="subtitle is-5 mb-2">{g.title}</h3>
                         <p className="has-text-grey">{g.summary}</p>
