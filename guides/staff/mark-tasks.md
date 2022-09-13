@@ -1,5 +1,5 @@
 ---
-title: Marking Tasks (STILL NEED TO FINISH)
+title: Marking Tasks
 summary: See how to mark student submissions
 authors: jakerenzella
 ---

@@ -1,14 +1,18 @@
 ---
-title: Installing Doubtfire on Windows
+title: Installing Formatif on Windows
 summary: Guides the user through an installation on Ubuntu WSL distribution
 authors: C-Blenco, MattK18
 ---
 
-The aim of this document is to provide instruction on how to setup a functional install of Doubtfire on Windows, via the
+The aim of this document is to provide instruction on how to setup a functional install of Foramtif on Windows, via the
 Windows Subsystem for Linux (WSL). This document will also entail how to properly modify the codebase (using Visual
 Studio Code), such that no incompatibilities arise between the Windows and Linux filesystems.
 
-Once you have all of these steps complete you should be setup and ready to start using Doubtfire
+Once you have all of these steps complete you should be setup and ready to start using Formatif
+
+# A Note on Namespaces
+
+Formatif is the name for a project previously named "Doubtfire". While all outward presenting aspects of the tool are branded as Formatif, the codebase and diagrams below may make frequent references to "Doubtfire". This is always refering to Formatif.
 
 # Requirements
 

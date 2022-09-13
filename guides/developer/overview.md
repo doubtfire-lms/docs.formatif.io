@@ -4,6 +4,10 @@ summary: This document provides an overview of Formatif
 authors: Justfeedme
 ---
 
+# A Note on Namespaces
+
+Formatif is the name for a project previously named "Doubtfire". While all outward presenting aspects of the tool are branded as Formatif, the codebase and diagrams below may make frequent references to "Doubtfire". This is always refering to Formatif.
+
 # Introduction
 
 ## What is Formatif
@@ -22,7 +26,7 @@ development of self-regulation. To better support these features, we have enhanc
 visualisations to provide better support for indicating the links among these tasks and the unit’s learning outcomes as
 well as expected outcomes.
 
-## What does it do
+## What Does Formatif Do?
 
 Formatif allows staff and student to explore the links between tasks and learning outcomes, enabling staff to monitor
 student progress toward achievement of learning outcomes, and supporting students in better manage their learning
@@ -36,9 +40,9 @@ students weekly tasks.
 Teachers are allowed to give feedback to students, so that students can revise their submission and re-submit. Students
 can request time extensions if they are running behind schedule on a particular task.
 
-A link to using some of the basic features for **staff** can be found [here](/guides#staff).
+A link to using some of the basic features for **staff** can be found [here](/#staff).
 
-A link to using some of the basic features for **students** can be found [here](/guides#student).
+A link to using some of the basic features for **students** can be found [here](/#student).
 
 ## Learning and Assessment
 
@@ -63,20 +67,20 @@ the unit’s assessment criteria and unit learning outcomes to determine results
 status of each student’s tasks, with the assessor knowing that those that are marked as complete and have been assessed
 by staff as demonstrating the required knowledge.
 
-## Burndown charts - An Agile approach
+## Burndown Charts - An Agile Approach
 
 A key principle of Agile software development methods is that they embrace change by allowing for adaptive, periodic
 adjustment of activities, resulting in robust and effective outcomes.
 
-A key driver of Agile development is the use of Burn down charts—a central requirement for the Formatif tool.
+A key driver of Agile development is the use of burndown charts: a central requirement for the Formatif tool.
 
 Formatif allows teaching staff to outline the tasks students need to complete during the semester. Student are then
-able to monitor their progress against these tasks using burn down charts. The charts show the backlog of work remaining
+able to monitor their progress against these tasks using burndown charts. The charts show the backlog of work remaining
 week by week, which decreases as work is completed.
 
 These charts give students a visual way to know how many tasks they need to complete over the semester, and estimate the
-relative complexity of those tasks—a skill which many seem to lack. Students should also be able to use the tool to
-determine whether they need to increase their rate of progress (velocity) and, if so, commit more time to the subject or
+relative complexity of those tasks. Students should also be able to use the tool to
+determine whether they need to increase their rate of progress (velocity), and if so, commit more time to the subject or
 take greater advantage of resources available to them. In addition to the simple scrum-style marking of tasks as
 completed, it was also seen that students could use the system to indicate if they were working on, or having trouble
 with, particular tasks. To account for task heterogeneity, staff need to be able to weight tasks, based on predicted
@@ -98,7 +102,7 @@ Formatif Web is the front end (client side) and is written in Javascript, using 
 
 ## Formatif API
 
-Formatif API is the backend (server side) and uses the [Ruby on Rails framework](https://rubyonrails.org).
+Formatif API is the backend (server side) and uses the [Ruby on Rails framework](https://rubyonrails.org). 
 
 ![High Level Structure of Formatif](/guides/overview/high-level-structure.gif)
 
@@ -303,7 +307,9 @@ development.
 
 ## Active Record
 
-guides.rubyonrails.org -> Models -> Active Record Basics https://guides.rubyonrails.org/active_record_basics.html
+guides.rubyonrails.org -> Models -> Active Record Basics 
+
+[Find Ruby on Rails Documentation Here](https://guides.rubyonrails.org/active_record_basics.html)
 
 ## Facade Design pattern (front end of Formatif)
 
@@ -356,9 +362,9 @@ schema definition.
 To look into this further, one should look at the various tables in **schema.rb** and their corresponding mappings with
 their Object classes and class functions in the `app/models` folder.
 
-## Doubtfire-Web
+<!-- ## Doubtfire-Web -->
 
----
+<!-- --- -->
 
 # UML Class Diagrams
 

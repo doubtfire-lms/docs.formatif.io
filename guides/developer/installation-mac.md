@@ -1,14 +1,18 @@
 ---
-title: Installing Doubtfire on macOS
+title: Installing Formatif on macOS
 summary: Guides the user through an installation on macOS
 authors: macite, jakerenzella
 ---
 
-To get Doubtfire installed on macOS, follow the steps below:
+To get Formatif installed on macOS, follow the steps below:
 
-Once you have all of these steps complete you should be setup and ready to using Doubtfire.
+Once you have all of these steps complete you should be setup and ready to using Formatif.
 
 ---
+
+# A Note on Namespaces
+
+Formatif is the name for a project previously named "Doubtfire". While all outward presenting aspects of the tool are branded as Formatif, the codebase and diagrams below may make frequent references to "Doubtfire". This is always refering to Formatif.
 
 # Step 1: Installing doubtfire-api
 

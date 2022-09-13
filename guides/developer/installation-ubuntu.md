@@ -1,12 +1,16 @@
 ---
-title: Install Doubtfire on Ubuntu
+title: Install Formatif on Ubuntu
 summary: Guides the user through an installation on Ubuntu
 authors: Justfeedme, jeevanFernandes
 ---
 
+# A Note on Namespaces
+
+Formatif is the name for a project previously named "Doubtfire". While all outward presenting aspects of the tool are branded as Formatif, the codebase and diagrams below may make frequent references to "Doubtfire". This is always refering to Formatif.
+
 # Automated Installation Scripts
 
-The automated installation scripts are the simplest way to install Doubtfire using Ubuntu as your fully-fledged
+The automated installation scripts are the simplest way to install Formatif using Ubuntu as your fully-fledged
 development environment.
 
 To begin, you will first need to clone the `doubtfire-web`, `doubtfire-api`, and `doubtfire.io` repositories. Before

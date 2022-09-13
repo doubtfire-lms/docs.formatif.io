@@ -1,7 +1,7 @@
 ---
 title: Changing your target grade
 summary: See how to change your target grade in Formatif
-authors: josephjeong
+authors: jakerenzella, josephjeong
 ---
 
 In Formatif, your target grade indicates to both you and the teaching staff, how you are looking to approach your unit

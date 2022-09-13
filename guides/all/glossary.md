@@ -127,6 +127,10 @@ authors: jakerenzella
         Groups of students either within a tutorial or a unit, which allows submission of group work, rather than
         individual task submissions.
       </td>
+    <tr>
+      <td class="has-text-right"><strong>Doubtfire</strong></td>
+      <td>The old and deprecated name for Formatif, often found in developer documentation/codebases.</td>
+    </tr>
     </tr>
   </tbody>
 </table>
